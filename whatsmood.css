@@ -1,0 +1,302 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+.color-dark-dark-grey {
+    color: #383838;
+}
+.color-lt-grey {
+	color: #F0F0F0;
+}
+.color-grey {
+	color: #686868;
+}
+.color-med-grey {
+	color: #484848;
+}
+h1 {
+    color: #f44336;
+}
+.white-text {
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    max-width: 600px; 
+    margin-bottom: 140px;
+    width: 50%;
+
+  }
+
+  .logo {
+    color: #f44336; /* Red */
+    text-align: center;
+    padding-top: 5%;
+    font-size: 35px;
+}
+
+.button {
+    background-color: #f44336; /* Red */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.page-narrow {
+    width: 60%;
+}
+.page-wide {
+    width: 90%;
+}
+.genre-selector-box {
+    background-color:white;
+    width: auto;
+    height: auto;
+    box-sizing:border-box;
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 5px;
+}
+.genre-selector-title-rule {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-width: 0;
+        height: 2px;
+        background-color: #f44336;
+        background-position: center center;
+        width: 200px;
+        text-align: center;
+        display: block;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+.genre-selector-title-rule.short {
+    width: 150px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.flex-container.genre {
+    padding: 15px;
+}
+.flex-container.movie {
+    padding: 0px;
+}
+.flex-container.genre-small {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.genre-selector-button {
+    background-color: #f0f0f0;
+    font-size: 20px;
+    width: 175px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 15px;
+    transition-duration: 0.3s;
+}
+.genre-selector-button:hover {
+    background-color:#f44336;
+}
+.movie-recommendation-box {
+    background-color:white;
+    width: auto;
+    height: auto;
+    box-sizing:border-box;
+    padding-top: 35px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+}
+.movie-recommendation-button {
+    background-color: #f0f0f0;
+    background-size: cover;
+    font-size: 25px;
+    color: white;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 10px;
+    transition-duration: 0.3s;
+}
+.movie-recommendation-button.movie-one {
+    background-image: url("./images/big-night/big-night.jpeg")
+}
+.movie-recommendation-button.movie-one:hover {
+    background-image: url("./images/big-night/Big-Night1.jpeg");
+}
+.movie-recommendation-button.movie-two {
+    background-image: url("./images/blaze/a6d3e91b5bfb4f57a6359d529b15ee37-blaze3.jpeg")
+}
+.movie-recommendation-button.movie-two:hover {
+    background-image: url("./images/blaze/blaze-sundance.webp");
+}
+.movie-recommendation-button.movie-three {
+    background-image: url("./images/bright-star/AAAABe5YTu_EWaFbq4arVKbaesz0GRwM2x760Ct2nJOk-9whSTlzHuadAUMKfeFOAsXnZ1g64whY_abTl3UL0n9OIJEJtX7INnzaIJ9a.jpeg")
+}
+.movie-recommendation-button.movie-three:hover {
+    background-image: url("./images/bright-star/abbie-cornish-ben-whishaw-bright-star-2009-EFAC5W.jpeg");
+}
+.movie-recommendation-button.movie-four {
+    background-image: url("./images/i-am-love/640x360.jpeg")
+}
+.movie-recommendation-button.movie-four:hover {
+    background-image: url("./images/i-am-love/MG_4135.webp");
+}
+.movie-recommendation-button.movie-five {
+    background-image: url("./images/cold-war/cold-war-zula-wiktor.jpeg")
+}
+.movie-recommendation-button.movie-five:hover {
+    background-image: url("./images/cold-war/Cold_War_3.jpeg");
+}
+.movie-recommendation-button.movie-six {
+    background-image: url("./images/i-am-jonas/Hollywood-Insider-I-Am-Jonas-Movie-LGBTQ-Films-French-Films-Gay-Romance-1280x720.jpeg")
+}
+.movie-recommendation-button.movie-six:hover {
+    background-image: url("./images/i-am-jonas/i-am-jonas-netflix-review.webp");
+}
+
+.movie-selection-box {
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+}
+.movie-poster {
+    height: 472px;
+    width: 300px;
+    padding-right: 3px;
+}
+.movie-trailer {
+    height: 472px;
+    width: auto;
+}
+.movie-genre-button {
+    background-color: #f0f0f0;
+    font-size: 15px;
+    width: 75px;
+    text-align: center;
+    border-radius: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+}
+.movie-description-box {
+    text-align: left;
+    width: 600px;
+    padding-left: 15px;
+}
+.movie-title {
+    font-size: 45px;
+}
+.movie-subtitle {
+    font-size: 15px;
+}
+.movie-leads-heading {
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.movie-description {
+    font-size: 18px;
+}
+.movie-leads {
+    font-size: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+} 
+
+/* sets base style for each page */
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+    
+    /* set background image per page */
+    .whatsmoood-bg {
+    background: url(./images/posters2.jpg) no-repeat center center fixed;
+    }
+    .index-bg {
+    background: url(./images/posters1.jpg) no-repeat center center fixed;
+    }
+    .selection-bg {
+    background: url(./images/theater.jpg) no-repeat center center fixed;
+    }           
+    .suggestions-bg {
+        background: url(./images/theater.jpg) no-repeat center center fixed;
+
+        }   
+           
+    .last-bg {
+
+            background: url('./images/posters3.jpg');
+
+    }
+    .buttonsbox {
+        background-color:white;
+        width: auto;
+        height: auto;
+      
+        padding-top: 35px;
+        padding-right: 35px;
+        padding-left: 25px;
+        padding-bottom: 5px;
+    }
+
+
+    .centerSug {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        max-width: 1080px; 
+        margin-bottom: 40px;
+        width: 50%;
+        opacity: 90%;
+      }
+
+      .sugbox {
+        background-color:white;
+        width: auto;
+        height: auto;
+        box-sizing:border-box;
+        padding-top: 35px;
+        padding-right: 35px;
+        padding-left: 35px;
+        padding-bottom: 5px;
+        opacity: 90%;
+    }
